@@ -21,9 +21,8 @@ export default defineConfig((configEnv) => ({
   build: {
     lib: {
       entry: resolve("src", "index.ts"),
-      name: "react-component-library",
-      formats: ["es", "umd", "cjs"],
-      fileName: (format) => `react-component-library.${format}.js`,
+      name: "llopis",
+      formats: ["umd"],
     },
     rollupOptions: {
       external: ["react"],

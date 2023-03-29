@@ -49,7 +49,7 @@ export const ButtonWrapper = styled.button<ButtonWrapperProps>`
     `}
 `;
 
-export const Button = ({
+const Button = ({
   variant = "primary",
   size = "medium",
   text,
@@ -61,3 +61,5 @@ export const Button = ({
     </ButtonWrapper>
   );
 };
+
+export default Button;

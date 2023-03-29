@@ -16,7 +16,7 @@ const CardWrapper = styled.div`
   }
 `;
 
-export const Card = ({ title, description }: CardProps) => {
+const Card = ({ title, description }: CardProps) => {
   return (
     <CardWrapper>
       <h1>{title}</h1>
@@ -24,3 +24,5 @@ export const Card = ({ title, description }: CardProps) => {
     </CardWrapper>
   );
 };
+
+export default Card;
